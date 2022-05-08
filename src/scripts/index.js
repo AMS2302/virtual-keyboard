@@ -1,7 +1,10 @@
 import '../assets/styles/css/style.css';
 import '../assets/styles/scss/style.scss';
 
-const body = document.getElementById('body');
+import { config } from './config.js';
 
-body.innerHTML = `hello`;
-body.className = 'body';
+import { showLayout } from './layout.js';
+import { showButtons } from './components/buttons.js';
+
+showLayout();
+showButtons(config);
