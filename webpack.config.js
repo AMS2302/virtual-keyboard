@@ -43,13 +43,13 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Webpack-Config',
+      title: 'Virtual Keyboard',
       filename: 'index.html',
       template: 'src/index.html'
     }),
     new MiniCssExtractPlugin({
       filename: '[name].[contenthash].css',
     }),
-    new ESLintPlugin({extensions: 'js'}),
+    new ESLintPlugin({ extensions: 'js' }),
   ],
 };
