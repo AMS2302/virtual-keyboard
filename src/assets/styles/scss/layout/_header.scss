@@ -1,0 +1,11 @@
+.header {
+  background-color: $color-background;
+
+  &__title {
+    font-family: $font;
+    font-size: $font-size-header;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: $primary-text-color;
+  }
+}

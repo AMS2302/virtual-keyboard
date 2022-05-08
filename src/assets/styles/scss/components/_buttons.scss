@@ -11,10 +11,19 @@
   text-align: center;
   color: $color-button-text;
   background-color: $color-button;
+  transition: linear 0.2s;
   cursor: pointer;
+
+  &:hover {
+    background-color: $color-hover;
+  }
 
   &_wide {
     flex-grow: 1;
     width: auto;
+  }
+
+  &_active {
+    background-color: $color-active;
   }
 }
