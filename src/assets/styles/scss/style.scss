@@ -1,1 +1,17 @@
+// abstracts/
+@import 'abstracts/variables';
+
+// base/
 @import 'base/normalize';
+@import 'base/typography';
+
+// layout/
+@import 'layout/container';
+@import 'layout/header';
+@import 'layout/main';
+@import 'layout/footer';
+
+// components/
+@import 'components/buttons';
+@import 'components/keyboard';
+@import 'components/textarea';
