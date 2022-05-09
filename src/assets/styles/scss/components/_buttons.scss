@@ -11,11 +11,14 @@
   text-align: center;
   color: $color-button-text;
   background-color: $color-button;
+  border-style: solid;
+  border-width: 0.1px;
+  border-color: $color-keyboard;
   transition: linear 0.2s;
   cursor: pointer;
 
   &:hover {
-    background-color: $color-hover;
+    box-shadow: 0 0 10px $color-hover, 0 0 20px $color-hover;
   }
 
   &_wide {
@@ -25,5 +28,19 @@
 
   &_active {
     background-color: $color-active;
+    animation-name: pressButton;
+    animation-duration: 0.2s;
+  }
+}
+
+@keyframes pressButton {
+  from {
+    padding: 10px;
+    border-width: 1px;
+  }
+
+  to {
+    padding: 6px;
+    border-width: 5px;
   }
 }
