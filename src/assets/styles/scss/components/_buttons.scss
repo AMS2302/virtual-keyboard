@@ -1,0 +1,48 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  font-family: $font;
+  font-size: $font-size-button;
+  font-weight: 500;
+  text-align: center;
+  color: $color-button-text;
+  background-color: $color-button;
+  border-style: solid;
+  border-width: 0.1px;
+  border-color: $color-keyboard;
+  transition: linear 0.2s;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0 0 10px $color-hover, 0 0 20px $color-hover;
+  }
+
+  &_wide {
+    flex-grow: 1;
+    width: auto;
+  }
+
+  &_active {
+    background-color: $color-active;
+    animation-name: pressButton;
+    animation-duration: 0.2s;
+    padding: 6px;
+    border-width: 5px;
+  }
+}
+
+@keyframes pressButton {
+  from {
+    padding: 10px;
+    border-width: 1px;
+  }
+
+  to {
+    padding: 6px;
+    border-width: 5px;
+  }
+}
