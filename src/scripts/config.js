@@ -2,11 +2,11 @@ export const config = [
   [
     {
       id: 'Backquote',
-      textEng: {
+      eng: {
         low: '`',
         up: '~'
       },
-      textRu: {
+      ru: {
         low: 'ё',
         up: 'Ё'
       },
@@ -14,11 +14,11 @@ export const config = [
     },
     {
       id: 'Digit1',
-      textEng: {
+      eng: {
         low: '1',
         up: '!'
       },
-      textRu: {
+      ru: {
         low: '1',
         up: '!'
       },
@@ -26,11 +26,11 @@ export const config = [
     },
     {
       id: 'Digit2',
-      textEng: {
+      eng: {
         low: '2',
         up: '@'
       },
-      textRu: {
+      ru: {
         low: '2',
         up: '"'
       },
@@ -38,11 +38,11 @@ export const config = [
     },
     {
       id: 'Digit3',
-      textEng: {
+      eng: {
         low: '3',
         up: '#'
       },
-      textRu: {
+      ru: {
         low: '3',
         up: '№'
       },
@@ -50,11 +50,11 @@ export const config = [
     },
     {
       id: 'Digit4',
-      textEng: {
+      eng: {
         low: '4',
         up: '$'
       },
-      textRu: {
+      ru: {
         low: '4',
         up: ';'
       },
@@ -62,11 +62,11 @@ export const config = [
     },
     {
       id: 'Digit5',
-      textEng: {
+      eng: {
         low: '5',
         up: '%'
       },
-      textRu: {
+      ru: {
         low: '5',
         up: '%'
       },
@@ -74,11 +74,11 @@ export const config = [
     },
     {
       id: 'Digit6',
-      textEng: {
+      eng: {
         low: '6',
         up: '^'
       },
-      textRu: {
+      ru: {
         low: '6',
         up: ':'
       },
@@ -86,11 +86,11 @@ export const config = [
     },
     {
       id: 'Digit7',
-      textEng: {
+      eng: {
         low: '7',
         up: '&'
       },
-      textRu: {
+      ru: {
         low: '7',
         up: '?'
       },
@@ -98,11 +98,11 @@ export const config = [
     },
     {
       id: 'Digit8',
-      textEng: {
+      eng: {
         low: '8',
         up: '*'
       },
-      textRu: {
+      ru: {
         low: '8',
         up: '*'
       },
@@ -110,11 +110,11 @@ export const config = [
     },
     {
       id: 'Digit9',
-      textEng: {
+      eng: {
         low: '9',
         up: '('
       },
-      textRu: {
+      ru: {
         low: '9',
         up: '('
       },
@@ -122,11 +122,11 @@ export const config = [
     },
     {
       id: 'Digit0',
-      textEng: {
+      eng: {
         low: '0',
         up: ')'
       },
-      textRu: {
+      ru: {
         low: '0',
         up: ')'
       },
@@ -134,11 +134,11 @@ export const config = [
     },
     {
       id: 'Minus',
-      textEng: {
+      eng: {
         low: '-',
         up: '_'
       },
-      textRu: {
+      ru: {
         low: '-',
         up: '_'
       },
@@ -146,11 +146,11 @@ export const config = [
     },
     {
       id: 'Equal',
-      textEng: {
+      eng: {
         low: '=',
         up: '+'
       },
-      textRu: {
+      ru: {
         low: '=',
         up: '+'
       },
@@ -158,11 +158,11 @@ export const config = [
     },
     {
       id: 'Backspace',
-      textEng: {
+      eng: {
         low: 'Backspace',
         up: 'Backspace'
       },
-      textRu: {
+      ru: {
         low: 'Backspace',
         up: 'Backspace'
       },
@@ -172,11 +172,11 @@ export const config = [
   [
     {
       id: 'Tab',
-      textEng: {
+      eng: {
         low: 'Tab',
         up: 'Tab'
       },
-      textRu: {
+      ru: {
         low: 'Tab',
         up: 'Tab'
       },
@@ -184,11 +184,11 @@ export const config = [
     },
     {
       id: 'KeyQ',
-      textEng: {
+      eng: {
         low: 'q',
         up: 'Q'
       },
-      textRu: {
+      ru: {
         low: 'й',
         up: 'Й'
       },
@@ -196,11 +196,11 @@ export const config = [
     },
     {
       id: 'KeyW',
-      textEng: {
+      eng: {
         low: 'w',
         up: 'W'
       },
-      textRu: {
+      ru: {
         low: 'ц',
         up: 'Ц'
       },
@@ -208,11 +208,11 @@ export const config = [
     },
     {
       id: 'KeyE',
-      textEng: {
+      eng: {
         low: 'e',
         up: 'E'
       },
-      textRu: {
+      ru: {
         low: 'у',
         up: 'У'
       },
@@ -220,11 +220,11 @@ export const config = [
     },
     {
       id: 'KeyR',
-      textEng: {
+      eng: {
         low: 'r',
         up: 'R'
       },
-      textRu: {
+      ru: {
         low: 'к',
         up: 'К'
       },
@@ -232,11 +232,11 @@ export const config = [
     },
     {
       id: 'KeyT',
-      textEng: {
+      eng: {
         low: 't',
         up: 'T'
       },
-      textRu: {
+      ru: {
         low: 'е',
         up: 'Е'
       },
@@ -244,11 +244,11 @@ export const config = [
     },
     {
       id: 'KeyY',
-      textEng: {
+      eng: {
         low: 'y',
         up: 'Y'
       },
-      textRu: {
+      ru: {
         low: 'н',
         up: 'Н'
       },
@@ -256,11 +256,11 @@ export const config = [
     },
     {
       id: 'KeyU',
-      textEng: {
+      eng: {
         low: 'u',
         up: 'U'
       },
-      textRu: {
+      ru: {
         low: 'г',
         up: 'Г'
       },
@@ -268,11 +268,11 @@ export const config = [
     },
     {
       id: 'KeyI',
-      textEng: {
+      eng: {
         low: 'i',
         up: 'I'
       },
-      textRu: {
+      ru: {
         low: 'ш',
         up: 'Ш'
       },
@@ -280,11 +280,11 @@ export const config = [
     },
     {
       id: 'KeyO',
-      textEng: {
+      eng: {
         low: 'o',
         up: 'O'
       },
-      textRu: {
+      ru: {
         low: 'щ',
         up: 'Щ'
       },
@@ -292,11 +292,11 @@ export const config = [
     },
     {
       id: 'KeyP',
-      textEng: {
+      eng: {
         low: 'p',
         up: 'P'
       },
-      textRu: {
+      ru: {
         low: 'з',
         up: 'З'
       },
@@ -304,11 +304,11 @@ export const config = [
     },
     {
       id: 'BracketLeft',
-      textEng: {
+      eng: {
         low: '[',
         up: '{'
       },
-      textRu: {
+      ru: {
         low: 'х',
         up: 'Х'
       },
@@ -316,11 +316,11 @@ export const config = [
     },
     {
       id: 'BracketRight',
-      textEng: {
+      eng: {
         low: ']',
         up: '}'
       },
-      textRu: {
+      ru: {
         low: 'ъ',
         up: 'Ъ'
       },
@@ -328,11 +328,11 @@ export const config = [
     },
     {
       id: 'Backslash',
-      textEng: {
+      eng: {
         low: '\\',
         up: '|'
       },
-      textRu: {
+      ru: {
         low: '\\',
         up: '/'
       },
@@ -340,11 +340,11 @@ export const config = [
     },
     {
       id: 'Delete',
-      textEng: {
+      eng: {
         low: 'Del',
         up: 'Del'
       },
-      textRu: {
+      ru: {
         low: 'Del',
         up: 'Del'
       },
@@ -354,11 +354,11 @@ export const config = [
   [
     {
       id: 'CapsLock',
-      textEng: {
+      eng: {
         low: 'CapsLock',
         up: 'CapsLock'
       },
-      textRu: {
+      ru: {
         low: 'CapsLock',
         up: 'CapsLock'
       },
@@ -366,11 +366,11 @@ export const config = [
     },
     {
       id: 'KeyA',
-      textEng: {
+      eng: {
         low: 'a',
         up: 'A'
       },
-      textRu: {
+      ru: {
         low: 'ф',
         up: 'Ф'
       },
@@ -378,11 +378,11 @@ export const config = [
     },
     {
       id: 'KeyS',
-      textEng: {
+      eng: {
         low: 's',
         up: 'S'
       },
-      textRu: {
+      ru: {
         low: 'ы',
         up: 'Ы'
       },
@@ -390,11 +390,11 @@ export const config = [
     },
     {
       id: 'KeyD',
-      textEng: {
+      eng: {
         low: 'd',
         up: 'D'
       },
-      textRu: {
+      ru: {
         low: 'в',
         up: 'В'
       },
@@ -402,11 +402,11 @@ export const config = [
     },
     {
       id: 'KeyF',
-      textEng: {
+      eng: {
         low: 'f',
         up: 'F'
       },
-      textRu: {
+      ru: {
         low: 'а',
         up: 'А'
       },
@@ -414,11 +414,11 @@ export const config = [
     },
     {
       id: 'KeyG',
-      textEng: {
+      eng: {
         low: 'g',
         up: 'G'
       },
-      textRu: {
+      ru: {
         low: 'п',
         up: 'П'
       },
@@ -426,11 +426,11 @@ export const config = [
     },
     {
       id: 'KeyH',
-      textEng: {
+      eng: {
         low: 'h',
         up: 'H'
       },
-      textRu: {
+      ru: {
         low: 'р',
         up: 'Р'
       },
@@ -438,11 +438,11 @@ export const config = [
     },
     {
       id: 'KeyJ',
-      textEng: {
+      eng: {
         low: 'j',
         up: 'J'
       },
-      textRu: {
+      ru: {
         low: 'о',
         up: 'О'
       },
@@ -450,11 +450,11 @@ export const config = [
     },
     {
       id: 'KeyK',
-      textEng: {
+      eng: {
         low: 'k',
         up: 'K'
       },
-      textRu: {
+      ru: {
         low: 'л',
         up: 'Л'
       },
@@ -462,11 +462,11 @@ export const config = [
     },
     {
       id: 'KeyL',
-      textEng: {
+      eng: {
         low: 'l',
         up: 'L'
       },
-      textRu: {
+      ru: {
         low: 'д',
         up: 'Д'
       },
@@ -474,11 +474,11 @@ export const config = [
     },
     {
       id: 'Semicolon',
-      textEng: {
+      eng: {
         low: ';',
         up: ':'
       },
-      textRu: {
+      ru: {
         low: 'ж',
         up: 'Ж'
       },
@@ -486,11 +486,11 @@ export const config = [
     },
     {
       id: 'Quote',
-      textEng: {
+      eng: {
         low: '\'',
         up: '"'
       },
-      textRu: {
+      ru: {
         low: 'э',
         up: 'Э'
       },
@@ -498,11 +498,11 @@ export const config = [
     },
     {
       id: 'Enter',
-      textEng: {
+      eng: {
         low: 'Enter',
         up: 'Enter'
       },
-      textRu: {
+      ru: {
         low: 'Enter',
         up: 'Enter'
       },
@@ -512,11 +512,11 @@ export const config = [
   [
     {
       id: 'ShiftLeft',
-      textEng: {
+      eng: {
         low: 'Shift',
         up: 'Shift'
       },
-      textRu: {
+      ru: {
         low: 'Shift',
         up: 'Shift'
       },
@@ -524,11 +524,11 @@ export const config = [
     },
     {
       id: 'KeyZ',
-      textEng: {
+      eng: {
         low: 'z',
         up: 'Z'
       },
-      textRu: {
+      ru: {
         low: 'я',
         up: 'Я'
       },
@@ -536,11 +536,11 @@ export const config = [
     },
     {
       id: 'KeyX',
-      textEng: {
+      eng: {
         low: 'x',
         up: 'X'
       },
-      textRu: {
+      ru: {
         low: 'ч',
         up: 'Ч'
       },
@@ -548,11 +548,11 @@ export const config = [
     },
     {
       id: 'KeyC',
-      textEng: {
+      eng: {
         low: 'c',
         up: 'C'
       },
-      textRu: {
+      ru: {
         low: 'с',
         up: 'С'
       },
@@ -560,11 +560,11 @@ export const config = [
     },
     {
       id: 'KeyV',
-      textEng: {
+      eng: {
         low: 'v',
         up: 'V'
       },
-      textRu: {
+      ru: {
         low: 'м',
         up: 'М'
       },
@@ -572,11 +572,11 @@ export const config = [
     },
     {
       id: 'KeyB',
-      textEng: {
+      eng: {
         low: 'b',
         up: 'B'
       },
-      textRu: {
+      ru: {
         low: 'и',
         up: 'И'
       },
@@ -584,11 +584,11 @@ export const config = [
     },
     {
       id: 'KeyN',
-      textEng: {
+      eng: {
         low: 'n',
         up: 'N'
       },
-      textRu: {
+      ru: {
         low: 'т',
         up: 'Т'
       },
@@ -596,11 +596,11 @@ export const config = [
     },
     {
       id: 'KeyM',
-      textEng: {
+      eng: {
         low: 'm',
         up: 'M'
       },
-      textRu: {
+      ru: {
         low: 'ь',
         up: 'Ь'
       },
@@ -608,11 +608,11 @@ export const config = [
     },
     {
       id: 'Comma',
-      textEng: {
+      eng: {
         low: ',',
         up: '<'
       },
-      textRu: {
+      ru: {
         low: 'б',
         up: 'Б'
       },
@@ -620,11 +620,11 @@ export const config = [
     },
     {
       id: 'Period',
-      textEng: {
+      eng: {
         low: '.',
         up: '>'
       },
-      textRu: {
+      ru: {
         low: 'ю',
         up: 'Ю'
       },
@@ -632,11 +632,11 @@ export const config = [
     },
     {
       id: 'Slash',
-      textEng: {
+      eng: {
         low: '/',
         up: '?'
       },
-      textRu: {
+      ru: {
         low: '.',
         up: ','
       },
@@ -644,11 +644,11 @@ export const config = [
     },
     {
       id: 'ArrowUp',
-      textEng: {
+      eng: {
         low: '&#8593;',
         up: '&#8593;'
       },
-      textRu: {
+      ru: {
         low: '&#8593;',
         up: '&#8593;'
       },
@@ -656,11 +656,11 @@ export const config = [
     },
     {
       id: 'ShiftRight',
-      textEng: {
+      eng: {
         low: 'Shift',
         up: 'Shift'
       },
-      textRu: {
+      ru: {
         low: 'Shift',
         up: 'Shift'
       },
@@ -670,11 +670,11 @@ export const config = [
   [
     {
       id: 'ControlLeft',
-      textEng: {
+      eng: {
         low: 'Ctrl',
         up: 'Ctrl'
       },
-      textRu: {
+      ru: {
         low: 'Ctrl',
         up: 'Ctrl'
       },
@@ -682,11 +682,11 @@ export const config = [
     },
     {
       id: 'MetaLeft',
-      textEng: {
+      eng: {
         low: 'Win',
         up: 'Win'
       },
-      textRu: {
+      ru: {
         low: 'Win',
         up: 'Win'
       },
@@ -694,11 +694,11 @@ export const config = [
     },
     {
       id: 'AltLeft',
-      textEng: {
+      eng: {
         low: 'Alt',
         up: 'Alt'
       },
-      textRu: {
+      ru: {
         low: 'Alt',
         up: 'Alt'
       },
@@ -706,11 +706,11 @@ export const config = [
     },
     {
       id: 'Space',
-      textEng: {
+      eng: {
         low: '',
         up: ''
       },
-      textRu: {
+      ru: {
         low: '',
         up: ''
       },
@@ -718,11 +718,11 @@ export const config = [
     },
     {
       id: 'AltRight',
-      textEng: {
+      eng: {
         low: 'Alt',
         up: 'Alt'
       },
-      textRu: {
+      ru: {
         low: 'Alt',
         up: 'Alt'
       },
@@ -730,11 +730,11 @@ export const config = [
     },
     {
       id: 'ArrowLeft',
-      textEng: {
+      eng: {
         low: '&#8592;',
         up: '&#8592;'
       },
-      textRu: {
+      ru: {
         low: '&#8592;',
         up: '&#8592;'
       },
@@ -742,11 +742,11 @@ export const config = [
     },
     {
       id: 'ArrowDown',
-      textEng: {
+      eng: {
         low: '&#8595;',
         up: '&#8595;'
       },
-      textRu: {
+      ru: {
         low: '&#8595;',
         up: '&#8595;'
       },
@@ -754,11 +754,11 @@ export const config = [
     },
     {
       id: 'ArrowRight',
-      textEng: {
+      eng: {
         low: '&#8594;',
         up: '&#8594;'
       },
-      textRu: {
+      ru: {
         low: '&#8594;',
         up: '&#8594;'
       },
@@ -766,11 +766,11 @@ export const config = [
     },
     {
       id: 'ControlRight',
-      textEng: {
+      eng: {
         low: 'Ctrl',
         up: 'Ctrl'
       },
-      textRu: {
+      ru: {
         low: 'Ctrl',
         up: 'Ctrl'
       },

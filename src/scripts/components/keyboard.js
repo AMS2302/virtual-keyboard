@@ -13,9 +13,8 @@ function handleEvent(event) {
   const button = document.getElementById(event.code);
   const textarea = document.querySelector('.textarea');
   textarea.focus();
-  if (event.key === 'Alt' || event.key === 'Control') {
+  if (event.key === 'Alt' || event.key === 'Control' || event.key === 'Tab') {
     event.preventDefault();
-    textarea.blur();
   }
   button.classList.add('button_active');
   document.addEventListener('keyup', () => {
