@@ -5,6 +5,8 @@ import { config } from './config.js';
 
 import { showLayout } from './layout.js';
 import { showButtons } from './components/buttons.js';
+import {handleKeyboardEvent} from './components/keyboard.js'
 
 showLayout();
 showButtons(config);
+handleKeyboardEvent();

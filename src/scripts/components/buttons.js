@@ -1,8 +1,9 @@
 import { createTag } from "../templates.js";
 
-function createButton(text, additionalClasses) {
+function createButton(id, text, additionalClasses) {
   const button = createTag('div', ['button', ...additionalClasses]);
   button.innerHTML = text;
+  button.id = id;
   return button;
 }
 
@@ -12,7 +13,7 @@ export function showButtons(data) {
     const row = document.querySelector(`.row-${i}`);
     for (let j = 0; j < arr.length; j++) {
       const item = arr[j];
-      const button = createButton(item.textEng.low, item.additionalClasses);
+      const button = createButton(item.id, item.textEng.low, item.additionalClasses);
       row.appendChild(button);
     }
   }

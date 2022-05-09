@@ -1,6 +1,7 @@
 export const config = [
   [
     {
+      id: 'Backquote',
       textEng: {
         low: '`',
         up: '~'
@@ -12,6 +13,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'Digit1',
       textEng: {
         low: '1',
         up: '!'
@@ -23,6 +25,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'Digit2',
       textEng: {
         low: '2',
         up: '@'
@@ -34,6 +37,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'Digit3',
       textEng: {
         low: '3',
         up: '#'
@@ -45,6 +49,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'Digit4',
       textEng: {
         low: '4',
         up: '$'
@@ -56,6 +61,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'Digit5',
       textEng: {
         low: '5',
         up: '%'
@@ -67,6 +73,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'Digit6',
       textEng: {
         low: '6',
         up: '^'
@@ -78,6 +85,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'Digit7',
       textEng: {
         low: '7',
         up: '&'
@@ -89,6 +97,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'Digit8',
       textEng: {
         low: '8',
         up: '*'
@@ -100,6 +109,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'Digit9',
       textEng: {
         low: '9',
         up: '('
@@ -111,6 +121,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'Digit0',
       textEng: {
         low: '0',
         up: ')'
@@ -122,6 +133,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'Minus',
       textEng: {
         low: '-',
         up: '_'
@@ -133,6 +145,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'Equal',
       textEng: {
         low: '=',
         up: '+'
@@ -144,6 +157,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'Backspace',
       textEng: {
         low: 'Backspace',
         up: 'Backspace'
@@ -157,6 +171,7 @@ export const config = [
   ],
   [
     {
+      id: 'Tab',
       textEng: {
         low: 'Tab',
         up: 'Tab'
@@ -168,6 +183,7 @@ export const config = [
       additionalClasses: ['button_wide']
     },
     {
+      id: 'KeyQ',
       textEng: {
         low: 'q',
         up: 'Q'
@@ -179,6 +195,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'KeyW',
       textEng: {
         low: 'w',
         up: 'W'
@@ -190,6 +207,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'KeyE',
       textEng: {
         low: 'e',
         up: 'E'
@@ -201,6 +219,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'KeyR',
       textEng: {
         low: 'r',
         up: 'R'
@@ -212,6 +231,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'KeyT',
       textEng: {
         low: 't',
         up: 'T'
@@ -223,6 +243,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'KeyY',
       textEng: {
         low: 'y',
         up: 'Y'
@@ -234,6 +255,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'KeyU',
       textEng: {
         low: 'u',
         up: 'U'
@@ -245,6 +267,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'KeyI',
       textEng: {
         low: 'i',
         up: 'I'
@@ -256,6 +279,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'KeyO',
       textEng: {
         low: 'o',
         up: 'O'
@@ -267,6 +291,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'KeyP',
       textEng: {
         low: 'p',
         up: 'P'
@@ -278,6 +303,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'BracketLeft',
       textEng: {
         low: '[',
         up: '{'
@@ -289,6 +315,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'BracketRight',
       textEng: {
         low: ']',
         up: '}'
@@ -300,6 +327,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'Backslash',
       textEng: {
         low: '\\',
         up: '|'
@@ -311,19 +339,21 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'Delete',
       textEng: {
         low: 'Del',
         up: 'Del'
       },
       textRu: {
-        low: '=',
-        up: '+'
+        low: 'Del',
+        up: 'Del'
       },
       additionalClasses: ['button_wide']
     },
   ],
   [
     {
+      id: 'CapsLock',
       textEng: {
         low: 'CapsLock',
         up: 'CapsLock'
@@ -335,6 +365,7 @@ export const config = [
       additionalClasses: ['button_wide']
     },
     {
+      id: 'KeyA',
       textEng: {
         low: 'a',
         up: 'A'
@@ -346,6 +377,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'KeyS',
       textEng: {
         low: 's',
         up: 'S'
@@ -357,6 +389,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'KeyD',
       textEng: {
         low: 'd',
         up: 'D'
@@ -368,6 +401,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'KeyF',
       textEng: {
         low: 'f',
         up: 'F'
@@ -379,6 +413,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'KeyG',
       textEng: {
         low: 'g',
         up: 'G'
@@ -390,6 +425,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'KeyH',
       textEng: {
         low: 'h',
         up: 'H'
@@ -401,6 +437,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'KeyJ',
       textEng: {
         low: 'j',
         up: 'J'
@@ -412,6 +449,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'KeyK',
       textEng: {
         low: 'k',
         up: 'K'
@@ -423,6 +461,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'KeyL',
       textEng: {
         low: 'l',
         up: 'L'
@@ -434,6 +473,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'Semicolon',
       textEng: {
         low: ';',
         up: ':'
@@ -445,6 +485,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'Quote',
       textEng: {
         low: '\'',
         up: '"'
@@ -456,6 +497,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'Enter',
       textEng: {
         low: 'Enter',
         up: 'Enter'
@@ -469,6 +511,7 @@ export const config = [
   ],
   [
     {
+      id: 'ShiftLeft',
       textEng: {
         low: 'Shift',
         up: 'Shift'
@@ -480,6 +523,7 @@ export const config = [
       additionalClasses: ['button_wide']
     },
     {
+      id: 'KeyZ',
       textEng: {
         low: 'z',
         up: 'Z'
@@ -491,6 +535,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'KeyX',
       textEng: {
         low: 'x',
         up: 'X'
@@ -502,6 +547,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'KeyC',
       textEng: {
         low: 'c',
         up: 'C'
@@ -513,6 +559,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'KeyV',
       textEng: {
         low: 'v',
         up: 'V'
@@ -524,6 +571,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'KeyB',
       textEng: {
         low: 'b',
         up: 'B'
@@ -535,6 +583,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'KeyN',
       textEng: {
         low: 'n',
         up: 'N'
@@ -546,6 +595,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'KeyM',
       textEng: {
         low: 'm',
         up: 'M'
@@ -557,6 +607,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'Comma',
       textEng: {
         low: ',',
         up: '<'
@@ -568,6 +619,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'Period',
       textEng: {
         low: '.',
         up: '>'
@@ -579,6 +631,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'Slash',
       textEng: {
         low: '/',
         up: '?'
@@ -590,6 +643,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'ArrowUp',
       textEng: {
         low: '&#8593;',
         up: '&#8593;'
@@ -601,6 +655,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'ShiftRight',
       textEng: {
         low: 'Shift',
         up: 'Shift'
@@ -614,6 +669,7 @@ export const config = [
   ],
   [
     {
+      id: 'ControlLeft',
       textEng: {
         low: 'Ctrl',
         up: 'Ctrl'
@@ -625,6 +681,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'MetaLeft',
       textEng: {
         low: 'Win',
         up: 'Win'
@@ -636,6 +693,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'AltLeft',
       textEng: {
         low: 'Alt',
         up: 'Alt'
@@ -647,6 +705,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'Space',
       textEng: {
         low: '',
         up: ''
@@ -658,6 +717,7 @@ export const config = [
       additionalClasses: ['button_wide']
     },
     {
+      id: 'AltRight',
       textEng: {
         low: 'Alt',
         up: 'Alt'
@@ -669,6 +729,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'ArrowLeft',
       textEng: {
         low: '&#8592;',
         up: '&#8592;'
@@ -680,6 +741,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'ArrowDown',
       textEng: {
         low: '&#8595;',
         up: '&#8595;'
@@ -691,6 +753,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'ArrowRight',
       textEng: {
         low: '&#8594;',
         up: '&#8594;'
@@ -702,6 +765,7 @@ export const config = [
       additionalClasses: []
     },
     {
+      id: 'ControlRight',
       textEng: {
         low: 'Ctrl',
         up: 'Ctrl'
